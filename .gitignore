@@ -1,0 +1,34 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Node (si después usas node)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Archivos de compilación
+dist/
+build/
+*.o
+*.exe
+
+# Base64 (archivo temporal)
+base64.txt
+
+# Carpetas temporales
+.tmp/
+temp/
+
+# Logs
+*.log
