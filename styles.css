@@ -5,13 +5,13 @@
     --dark-color: #2b2b2b;
     --light-bg: #fdfbf7;
     /* Slightly warm off-white */
-    --text-muted: #6c757d;
+    --text-muted: #000;
 }
 
 body {
     background-color: #eae5df;
     font-family: 'Poppins', sans-serif;
-    color: #333;
+    color: #000;
 }
 
 .font-serif {
@@ -191,6 +191,7 @@ body {
 @media print {
     body {
         background: #fff;
+        color: #000 !important;
     }
 
     .cv-paper {
@@ -246,7 +247,7 @@ body {
     /* Page 3: Former sidebar info redistributed */
     .sidebar-info {
         background-color: var(--dark-color) !important;
-        color: white !important;
+        color: #000 !important;
         width: 100% !important;
         padding: 50px !important;
         min-height: 100vh; /* Ensure it feels like a full page */
